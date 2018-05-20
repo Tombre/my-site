@@ -1,0 +1,14 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "It's my site",
+  "main": "index.js",
+  "repository": "git@github.com:Tombre/my-site.git",
+  "author": "Tom Leenders <leenders.thomas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"start": "echo 'start'",
+  	"build": "yarn clean && mkdir dist && cp src/index.html dist/index.html",
+  	"clean": "rm -r dist"
+  }
+}
