@@ -9,7 +9,7 @@
   "scripts": {
     "start": "echo 'start'",
     "build": "yarn clean && mkdir dist && cp src/index.html dist/index.html",
-    "clean": "rm -r dist"
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "react": "^16.3.2"
